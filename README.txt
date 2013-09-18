@@ -1,4 +1,3 @@
-Hello technology enthusiasts,
 To keep us updated with the technology, I propose to do something that we can learn.
 Idea is, begin with a small step, 
 1. create a web application where we can capture our information, name phone number, address..
@@ -15,6 +14,5 @@ git hub and jenkins
 Next steps:
 Interested people please respond lets have a smaller discussion and tasks/team divisions
 
-From git
 
 Edited by pavan to test
