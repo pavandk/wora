@@ -20,6 +20,7 @@
 	</properties>
 	<modules>
 		<module>bundles/rest</module>
+		<module>bundles/ui</module>
 	</modules>
 	<build>
 
