@@ -18,11 +18,11 @@
 		<maven.compiler.source>1.6</maven.compiler.source>
 		<maven.compiler.target>1.6</maven.compiler.target>
 	</properties>
-
+	<modules>
+		<module>bundles/rest</module>
+	</modules>
 	<build>
-		<modules>
-			<module>bundles/rest</module>
-		</modules>
+
 		<!-- See https://bugs.eclipse.org/bugs/show_bug.cgi?id=350161 -->
 		<!-- <defaultGoal>clean install</defaultGoal> -->
 		<plugins>
