@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	
+
 	<groupId>highway8</groupId>
-    <artifactId>wora-parent</artifactId>
+	<artifactId>wora-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>${project.artifactId}</name>
-	
+
 	<packaging>pom</packaging>
 	<organization>
 		<name>route 8</name>
@@ -20,6 +20,9 @@
 	</properties>
 
 	<build>
+		<modules>
+			<module>bundles/rest</module>
+		</modules>
 		<!-- See https://bugs.eclipse.org/bugs/show_bug.cgi?id=350161 -->
 		<!-- <defaultGoal>clean install</defaultGoal> -->
 		<plugins>
