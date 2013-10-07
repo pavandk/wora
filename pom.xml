@@ -17,13 +17,33 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.compiler.source>1.6</maven.compiler.source>
 		<maven.compiler.target>1.6</maven.compiler.target>
+		<junit.version>4.10</junit.version>
+		<mockito.version>1.9.0</mockito.version>
 	</properties>
 	<modules>
+		<module>bundles/service</module>
 		<module>bundles/rest</module>
 		<module>bundles/ui</module>
 	</modules>
-	<build>
+	
+	<dependencies>
+		 <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-all</artifactId>
+                <version>${mockito.version}</version>
+                <scope>test</scope>
+            </dependency>
+	</dependencies>
 
+	
+	<build>
+	
 		<!-- See https://bugs.eclipse.org/bugs/show_bug.cgi?id=350161 -->
 		<!-- <defaultGoal>clean install</defaultGoal> -->
 		<plugins>
@@ -48,8 +68,8 @@
 			</plugin>
 		</plugins>
 		<pluginManagement>
-			<plugins>
-				<!-- https://git-wip-us.apache.org/repos/asf/maven.git/?p=maven.git;a=blob;f=maven-core/src/main/resources/META-INF/plexus/default-bindings.xml -->
+
+			<plugins>			
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
