@@ -13,6 +13,11 @@
 	<name>${project.artifactId}</name>
 	<packaging>war</packaging>
 	<dependencies>
+	 <dependency>
+		<groupId>highway8</groupId>
+		<artifactId>types</artifactId>
+		<version>${project.version}</version>
+	</dependency>
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
 			<artifactId>servlet-api</artifactId>
@@ -29,6 +34,50 @@
 			<artifactId>service</artifactId>
 			<version>${project.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>highway8</groupId>
+			<artifactId>types</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>highway8</groupId>
+			<artifactId>api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		
+		<!--logging stuff-->
+			  <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>log4j-over-slf4j</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>jcl-over-slf4j</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-jdk14</artifactId>
+                <version>${slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>${logback.version}</version>
+                <scope>test</scope>
+            </dependency>
 
 
 		<dependency>

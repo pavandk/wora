@@ -5,13 +5,50 @@
   <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
   <classpathentry kind="output" path="target/classes"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="src" path="/types"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/I056185/.m2/repository/org/slf4j/slf4j-api/1.6.4/slf4j-api-1.6.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/log4j-over-slf4j/1.6.4/log4j-over-slf4j-1.6.4.jar" sourcepath="M2_REPO/org/slf4j/log4j-over-slf4j/1.6.4/log4j-over-slf4j-1.6.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/I056185/.m2/repository/org/slf4j/log4j-over-slf4j/1.6.4/log4j-over-slf4j-1.6.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/jcl-over-slf4j/1.6.4/jcl-over-slf4j-1.6.4.jar" sourcepath="M2_REPO/org/slf4j/jcl-over-slf4j/1.6.4/jcl-over-slf4j-1.6.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/I056185/.m2/repository/org/slf4j/jcl-over-slf4j/1.6.4/jcl-over-slf4j-1.6.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-jdk14/1.6.4/slf4j-jdk14-1.6.4.jar" sourcepath="M2_REPO/org/slf4j/slf4j-jdk14/1.6.4/slf4j-jdk14-1.6.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/I056185/.m2/repository/org/slf4j/slf4j-jdk14/1.6.4/slf4j-jdk14-1.6.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/apache/tomcat/servlet-api/6.0.37/servlet-api-6.0.37.jar"/>
   <classpathentry kind="var" path="M2_REPO/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" sourcepath="M2_REPO/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar">
     <attributes>
       <attribute value="jar:file:/C:/Users/I056185/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-javadoc.jar!/" name="javadoc_location"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="var" path="M2_REPO/highway8/service/0.0.1-SNAPSHOT/service-0.0.1-SNAPSHOT.jar"/>
+  <classpathentry kind="src" path="/service"/>
+  <classpathentry kind="var" path="M2_REPO/org/mongodb/mongo-java-driver/1.3/mongo-java-driver-1.3.jar" sourcepath="M2_REPO/org/mongodb/mongo-java-driver/1.3/mongo-java-driver-1.3-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/I056185/.m2/repository/org/mongodb/mongo-java-driver/1.3/mongo-java-driver-1.3-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="src" path="/api"/>
+  <classpathentry kind="var" path="M2_REPO/ch/qos/logback/logback-classic/1.0.1/logback-classic-1.0.1.jar" sourcepath="M2_REPO/ch/qos/logback/logback-classic/1.0.1/logback-classic-1.0.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/I056185/.m2/repository/ch/qos/logback/logback-classic/1.0.1/logback-classic-1.0.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/ch/qos/logback/logback-core/1.0.1/logback-core-1.0.1.jar" sourcepath="M2_REPO/ch/qos/logback/logback-core/1.0.1/logback-core-1.0.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/I056185/.m2/repository/ch/qos/logback/logback-core/1.0.1/logback-core-1.0.1-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
   <classpathentry kind="var" path="M2_REPO/junit/junit/4.10/junit-4.10.jar" sourcepath="M2_REPO/junit/junit/4.10/junit-4.10-sources.jar">
     <attributes>
       <attribute value="jar:file:/C:/Users/I056185/.m2/repository/junit/junit/4.10/junit-4.10-javadoc.jar!/" name="javadoc_location"/>
