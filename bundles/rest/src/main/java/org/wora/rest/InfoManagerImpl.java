@@ -31,8 +31,8 @@ public class InfoManagerImpl extends HttpServlet {
         final PrintWriter out = resp.getWriter();
         try {
             List<Person> people = getPeople();
-            new Gson().toJson(people);
-            out.println(people);
+            String responseJson = new Gson().toJson(people);
+            out.println(responseJson);
         } catch (Throwable t) {
             t.printStackTrace(out);
         } finally {
@@ -40,7 +40,7 @@ public class InfoManagerImpl extends HttpServlet {
         }
     }
 
-    public List<Person> getPeople() {
+    List<Person> getPeople() {
         List<Person> people = new ArrayList<Person>();
         Person h = new Person("harsha", "hegde", "1");
         h.setGender(Gender.MALE);

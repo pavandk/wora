@@ -11,7 +11,7 @@
       <attribute value="jar:file:/C:/Users/I056185/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4-javadoc.jar!/" name="javadoc_location"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="src" path="/service"/>
+  <classpathentry kind="var" path="M2_REPO/highway8/service/0.0.1-SNAPSHOT/service-0.0.1-SNAPSHOT.jar"/>
   <classpathentry kind="var" path="M2_REPO/junit/junit/4.10/junit-4.10.jar" sourcepath="M2_REPO/junit/junit/4.10/junit-4.10-sources.jar">
     <attributes>
       <attribute value="jar:file:/C:/Users/I056185/.m2/repository/junit/junit/4.10/junit-4.10-javadoc.jar!/" name="javadoc_location"/>
