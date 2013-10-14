@@ -22,7 +22,7 @@
 	</dependency>
 	<dependency>
 		<groupId>highway8</groupId>
-		<artifactId>api</artifactId>
+		<artifactId>spi</artifactId>
 		<version>${project.version}</version>
 	</dependency>
 	

@@ -23,11 +23,12 @@
         <logback.version>1.0.1</logback.version>
 	</properties>
 	<modules>
-		<module>bundles/types</module>
+		<module>bundles/spi.types</module>
 		<module>bundles/api</module>
+		<module>bundles/spi</module>
 		<module>bundles/service</module>
 		<module>bundles/rest</module>
-		<module>bundles/ui</module>
+		<!--<module>bundles/ui</module>--><!--Commented until some code goes here -->
 	</modules>
 	
 	<dependencies>

@@ -13,11 +13,7 @@
 	<name>${project.artifactId}</name>
 	<packaging>war</packaging>
 	<dependencies>
-	 <dependency>
-		<groupId>highway8</groupId>
-		<artifactId>types</artifactId>
-		<version>${project.version}</version>
-	</dependency>
+	
 		<dependency>
 			<groupId>org.apache.tomcat</groupId>
 			<artifactId>servlet-api</artifactId>
@@ -36,12 +32,7 @@
 		</dependency>
 		<dependency>
 			<groupId>highway8</groupId>
-			<artifactId>types</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>highway8</groupId>
-			<artifactId>api</artifactId>
+			<artifactId>spi</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		

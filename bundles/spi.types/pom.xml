@@ -8,14 +8,18 @@
 		<relativePath>../../pom.xml</relativePath>
 	</parent>
 	
-  <artifactId>api</artifactId>
+  <artifactId>spi.types</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>${project.artifactId}</name>
   <url>http://maven.apache.org</url>
-  
   <dependencies>
-  
-  		<!--logging stuff-->
+  <dependency>
+			<groupId>highway8</groupId>
+			<artifactId>api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		
+  <!--logging stuff-->
 			  <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
@@ -48,5 +52,6 @@
                 <version>${logback.version}</version>
                 <scope>test</scope>
             </dependency>
-	</dependencies>
+            
+  </dependencies>          
 </project>
